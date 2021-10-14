@@ -1,0 +1,12 @@
+Kısım 1: 
+[16,21,11,8,12,22] dizisi Merge Sort ile sıralanacak olursa dizi aşağıdaki gibi ikişerli parçalarına ayrılır. 
+[16,21,11]   [8,12,22]
+[16,21]    [11]    [8,12]    [22]
+[16]    [21]    [11]    [8]    [12]    [22]  //Buradan itibaren dizi tekrar küçükten büyüğe doğru sıralanarak birleştirilmeye başlanır. 
+[16,21]    [11]    [8,12]    [22]
+[11,16,21]    [8,12,22]
+[8,11,12,16,21,22]
+
+Kısım 2:
+Merge Sort dizisinde Big-O gösterimi logn idi. 
+Bu dizi için n=6 olduğu için x=2.584 olur. 
