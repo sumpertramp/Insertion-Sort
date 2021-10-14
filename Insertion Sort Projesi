@@ -1,0 +1,21 @@
+1. Kısım: 
+[22,27,16,2,18,6] 
+[2,27,16,22,18,6]
+[2,6,16,22,18,27]
+[2,6,16,22,18,27] Burada 16 sayısı sıralamada yerinde olduğu için aynısı tekrar edilmiştir. 
+[2,6,16,18,22,27] 22 ve 27 sayıları sıralamada olması gereken yerde olduğu için algoritma sonlanmıştır. 
+
+2.Kısım:
+Insertion sort için Big-O ifadesi n elemanlı bir dizi için O(n2) idi.
+Bu dizi için eleman sayısı n=6 olduğu için Big-O =6*2=36 olur. 
+Yani algoritmamızın 36 adet işlem yapması gerekmektedir. 
+
+3. ve 4. Kısım:
+Dizi sıralandıktan sonra 18 sayı en soldan bir önceki elemandır ve sonuç olarak en sonda değildir. Bu nedenle Avarage Case kapsamına girmektedir. 
+
+5.Kısım:
+[7,3,5,8,2,9,4,15,6] dizisinin insertion sort için ilk 4 adımı:
+1-[2,3,5,8,7,9,4,15,6]
+2-[2,3,5,8,7,9,4,15,6]
+3-[2,3,4,8,7,9,5,15,6]
+4-[2,3,4,5,7,9,8,15,6]
